@@ -4,7 +4,7 @@ class Admin::DashboardController < ApplicationController
   
   def show
     @product_count = Product.count
-    # TODO:BLAHBLAH
-    @category_list = "Hello"
+    @category_count = Category.count
+    @category_list = Category.all
   end
 end
