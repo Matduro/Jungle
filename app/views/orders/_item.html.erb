@@ -1,0 +1,9 @@
+<% @order.line_items.each do |item| %>
+  <% @productid = item.product_id %>
+  <% @product = products.find(@productid) %>
+  
+  <h1>
+  <%= item.product_id %>
+  </h1>
+  <p><%= @product.description %></p>
+<% end %>
