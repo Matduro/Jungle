@@ -1,9 +1,19 @@
-<% @order.line_items.each do |item| %>
-  <% @productid = item.product_id %>
-  <% @product = products.find(@productid) %>
-  
-  <h1>
-  <%= item.product_id %>
-  </h1>
-  <p><%= @product.description %></p>
+<% @order.line_items.each do |line_item| %>
+  <tr>
+    <td>
+      <%= image_tag line_item.product.image.tiny %>
+    </td>
+    <td>
+      <h4><%= line_item.product.name %></h4>
+      <p>
+        <%= line_item.product.description %>
+      </p>
+    </td>
+    <td>
+    <%= line_item.quantity %>
+    </td>
+    <td>
+      <%= humanized_money_with_symbol line_item.total_price_cents / 100 %>
+    </td>
+  </tr>
 <% end %>
