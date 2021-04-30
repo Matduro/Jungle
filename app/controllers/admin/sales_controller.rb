@@ -1,6 +1,6 @@
 class Admin::SalesController < ApplicationController
 
   def index
-    @sales = sale.all
+    @sales = Sale.all
   end
 end
