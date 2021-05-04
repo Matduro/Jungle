@@ -77,7 +77,7 @@ RSpec.describe Product, type: :model do
     end
 
     describe '.authenticate_with_credentials' do
-      it "user can successfuly authenticate with the correct credentials" do
+      it "A user should successfuly authenticate with the correct credentials" do
         @user = User.new(
           first_name: "Mathieu",
           last_name: "Rousseau",
@@ -89,7 +89,7 @@ RSpec.describe Product, type: :model do
         expect(user).to eq(@user)
       end
 
-      it "user cannot successfuly authenticate with incorrect credentials" do
+      it "A user should not successfuly authenticate with incorrect credentials" do
         @user = User.new(
           first_name: "Mathieu",
           last_name: "Rousseau",
