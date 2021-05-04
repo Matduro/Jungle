@@ -59,20 +59,20 @@ RSpec.describe Product, type: :model do
       end
 
       it "should not validate if email already exists" do
-        @userA = User.new(
+        @user_a = User.new(
           first_name: "Mathieu",
           last_name: "Rousseau", 
           email: "mrousseau@lhlabs.com", 
           password: "password123", 
           password_confirmation: "password123")
-        @userA.save
-        @userB = User.new(
+        @user_a.save
+        @user_b = User.new(
           first_name: "Mathieu",
           last_name: "Rousseau",
           email: "mrousseau@lhlabs.com", 
           password: "password123", 
           password_confirmation: "password123")
-        expect(@userB).to_not be_valid
+        expect(@user_b).to_not be_valid
       end
     end
 
