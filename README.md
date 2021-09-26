@@ -1,6 +1,20 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of learning an older version of Rails to mimic real life projects that don't always use the latest versions of their tech-stack. 
+
+Users can add a variety of products to their shopping cart, as long as it is not sold out, and can make their purchase using Stripe. Admins can add new products and categories, review stock. It is also posible to generate sales that are auto applied and removed based on the dates assigned.
+
+## A selection of screenshots
+
+![User view of all products](https://github.com/Matduro/jungle-rails/blob/master/screenshots/user-all-products.png)
+
+![User view of their shopping cart](https://github.com/Matduro/jungle-rails/blob/master/screenshots/shopping-cart.png)
+
+![User view for transactions](https://github.com/Matduro/jungle-rails/blob/master/screenshots/stripe-payment.png)
+
+![Admin view of all products](https://github.com/Matduro/jungle-rails/blob/master/screenshots/admin-all-products.png)
+
+![User view of product page](https://github.com/Matduro/jungle-rails/blob/master/screenshots/product-page.png)
 
 ## Additional Steps for Apple M1 Machines
 
