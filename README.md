@@ -6,15 +6,15 @@ Users can add a variety of products to their shopping cart, as long as it is not
 
 ## A selection of screenshots
 
-![User view of all products](https://github.com/Matduro/jungle-rails/blob/master/screenshots/user-all-products.png)
+![User view of all products](https://github.com/Matduro/jungle-rails/blob/master/screenshots/user-all-products.png "User view of all products")
 
-![User view of their shopping cart](https://github.com/Matduro/jungle-rails/blob/master/screenshots/shopping-cart.png)
+![User view of their shopping cart](https://github.com/Matduro/jungle-rails/blob/master/screenshots/shopping-cart.png "User view of their shopping cart")
 
-![User view for transactions](https://github.com/Matduro/jungle-rails/blob/master/screenshots/stripe-payment.png)
+![User view for transactions](https://github.com/Matduro/jungle-rails/blob/master/screenshots/stripe-payment.png "User view for transactions")
 
-![Admin view of all products](https://github.com/Matduro/jungle-rails/blob/master/screenshots/admin-all-products.png)
+![Admin view of all products](https://github.com/Matduro/jungle-rails/blob/master/screenshots/admin-all-products.png "Admin view of all products")
 
-![User view of product page](https://github.com/Matduro/jungle-rails/blob/master/screenshots/product-page.png)
+![User view of product page](https://github.com/Matduro/jungle-rails/blob/master/screenshots/product-page.png "User view of product page")
 
 ## Additional Steps for Apple M1 Machines
 
